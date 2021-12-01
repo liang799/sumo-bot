@@ -10,3 +10,4 @@ Ryan, Harish and me
 A project done in 2020 for EDS module. I believe our team won 4th place in the intra class compeition.
 
 ## Flowchart
+![flowchart](misc/flow.png)
