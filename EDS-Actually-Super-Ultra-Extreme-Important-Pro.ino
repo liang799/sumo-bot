@@ -129,22 +129,22 @@ void Beeps(int beepInterval)
 void driveMotor(int leftS, int rightS) // 0-255
 {
   //Left Motor Decode
-  if (leftS>=0) {
+  if (leftS >= 0) {
     digitalWrite(left_M, 0);
     analogWrite (left_speed, leftS);
   }
-  if (leftS<0) {
+  if (leftS < 0) {
     digitalWrite(left_M, 1);
     leftS=-leftS;
     analogWrite (left_speed, leftS);
   }
   
   //Right Motor Decode
-  if (rightS>=0) {
+  if (rightS >= 0) {
     digitalWrite(right_M, 0);
     analogWrite (right_speed, rightS);
   }
-  if (rightS<0) {
+  if (rightS < 0) {
     digitalWrite(right_M, 1);
     rightS=-rightS;
     analogWrite (right_speed, rightS);
