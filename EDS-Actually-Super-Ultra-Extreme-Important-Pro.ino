@@ -58,7 +58,8 @@ void setup()
 }
 
  
-void loop() {
+void loop() 
+{
   //IR 
   frontleft = digitalRead(frontleftpin);
   frontright = digitalRead(frontrightpin);
