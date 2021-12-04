@@ -70,7 +70,7 @@ void loop() {
   delayMicroseconds(15);
   
   //UltraSonic Sensor Calculation
-  dist = pulseIn(echopin, HIGH, 8000)/58;
+  dist = pulseIn(echopin, HIGH, 8000) / 58;
   
   // Not detecting any line (Normal Function)
   if (frontleft==0 && frontright==0) {
