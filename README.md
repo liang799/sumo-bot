@@ -5,7 +5,7 @@
 We were planning to go with https://youtu.be/dQw4w9WgXcQ, but the cher too lazy to write and called us by this name instead
 
 ## Team Members
-Ryan, Harish and me
+Ryan, Harish and I
 
 ## Context
 * An Ardunio Uno project done in 2020 for EDS module
