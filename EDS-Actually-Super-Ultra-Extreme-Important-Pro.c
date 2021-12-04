@@ -73,9 +73,9 @@ void loop() {
   dist = pulseIn(echopin, HIGH, 8000)/58;
   
   // Not detecting any line (Normal Function)
-  if(frontleft==0 && frontright==0){
+  if(frontleft==0 && frontright==0) {
   
-    if (dist>1 && dist<45){
+    if (dist>1 && dist<45) {
       //Charge
       driveMotor(255,255);
       //Troubleshooting
@@ -92,19 +92,19 @@ void loop() {
   }
    
    // Border On the Right
-  if(frontleft==0 && frontright==1){
+  if(frontleft==0 && frontright==1) {
     driveMotor(-255,255);
     delay(500);
   }
      
   // Border On the Left
-  if(frontleft==1 && frontright==0){
+  if(frontleft==1 && frontright==0) {
    driveMotor(255,-255);
    delay(500);
   }
     
   // both sides detect line
-  if(frontleft==1 && frontright==1){
+  if(frontleft==1 && frontright==1) {
    driveMotor(-255,255);
    delay(500);
   }
